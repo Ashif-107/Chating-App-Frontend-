@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom styles */
+@screen max-400 {
+    .sidebar {
+        display: none;
+    }
+}
